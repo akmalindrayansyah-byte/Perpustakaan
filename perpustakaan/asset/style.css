@@ -1,0 +1,177 @@
+/* Reset & base style */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background: #71ed5e;
+    color: #333;
+    line-height: 1.6;
+    
+}
+
+/* Header */
+.header-container {
+    background: linear-gradient(to right, #2c3e50, #34495e);
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.header-container h1 {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: #65ea6e;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 6px 12px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Container */
+.container {
+    background: #f1eeee;
+    padding: 25px 30px;
+    margin: 30px auto;
+    width: 90%;
+    max-width: 900px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Form Elements */
+input, textarea, select, button {
+    padding: 12px;
+    margin: 10px 0;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+    transition: all 0.3s ease;
+}
+
+input:focus, textarea:focus, select:focus {
+    border-color: #813b15;
+    box-shadow: 0 0 5px rgba(90, 245, 165, 0.4);
+    outline: none;
+}
+
+/* Buttons */
+button {
+    background-color: #ec9f33;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #33de33;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #2c3e50;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
+}
+
+/* Message Box */
+.message {
+    margin-top: 15px;
+    padding: 12px;
+    border-radius: 6px;
+    font-weight: 600;
+    background-color: #ecf0f1;
+    border-left: 6px solid #3498db;
+}
+
+/* Main content spacing */
+.main-content {
+    padding-bottom: 100px; /* to make space for footer */
+}
+
+/* Info Boxes */
+.info-boxes {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    margin-top: 25px;
+}
+
+.box {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.05);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+}
+
+/* Footer tengah dan fix di bawah */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #2c3e50;
+    color: white;
+    width: 100%;
+}
+
+.book-preview {
+  height: 200px;
+  width: auto;
+  margin-bottom: 10px;
+  border-radius: 12px;
+  object-fit: contain;
+}
+
+.hero-logo {
+   max-width: 180px;
+   height: auto;
+   margin: 20px auto;
+   border: 4px solid white;
+   padding: 8px;
+   background: none !important;
+   border-radius: 50%;
+}
+
